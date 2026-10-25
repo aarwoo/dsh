@@ -7,10 +7,10 @@ Symbol:
    D a plain text until `\n`, includes `\n`
    U a URL until `\n`, exclusive `\n`
    N a plain text until `\n`, exclusive `\n`,
-     at least one visuable char includes
+     at least one visible char includes
    S(c) replace 1st char of `  ` into c
 
-[Each Content is belongs nearest Topic]
+[Each Content belongs to nearest Topic]
 [First Line should be Topic]
 
 Topic:
@@ -19,10 +19,12 @@ S(`#`)N a topic title, 1 line,
         collapse related Content
 Content:
 S(` `)D a plain text
+
 S(`>`)N
 S(`=`)U   a link, with link text is N, 
           linked url is U. 
           those 2 lines are bound together.
+
 S(`@`)N
 S(`|`)D
 S(`|`)D
@@ -32,10 +34,11 @@ S(`|`)D   N is the PL name.
           is n lines (n >= 1) codes of N,
           which can be click to copy,
           will be highlight if supported.
-          those lines are bound together
+          those lines are bound together.
+
 S(`$`)N
 S(`=`)U  N is alt text and title of image.
          U is url of image, auto resize,
          but do not over 100% size.
          N display under U, center.
-         those 2 lines are bounds together.
+         those 2 lines are bound together.
