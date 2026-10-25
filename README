@@ -4,43 +4,55 @@ This is a specific definition of Mind.
 Mind is a simple language that can write blog.
 
 Symbol:
-   D a plain text until `\n`, includes `\n`
+   D a text until `\n`, includes `\n`
    U a URL until `\n`, exclusive `\n`
-   N a plain text until `\n`, exclusive `\n`,
+   N a text until `\n`, exclusive `\n`,
      at least one visible char includes
    S(c) replace 1st char of `  ` into c
 
-[Each Content belongs to nearest Topic]
+[Each Content belongs to nearest Topic before]
+[Each Topic should have Contents]
 [First Line should be Topic]
 
 Topic:
-S(`#`)N a topic title, 1 line,
+S(`#`)N a topic bloder title, 1 line,
         which could click to expand or
-        collapse related Content
+        collapse related Contents.
+        Collapsed: orange,
+        Expanded: bisque
 Content:
-S(` `)D a normal plain text
+S(`+`) join previous line of Content with
+        next line of Content into one line.
+        Requires: both previous line and
+        next line are line of `plain text`.
 
-S(`!`)D a important bolder plain text
+
+S(` `)D a normal black plain text.
+
+S(`!`)D a important bolder red plain text.
 
 S(`>`)N
-S(`=`)U   a link, with link text is N, 
-          linked url is U. 
+S(`=`)U   a bolder skyblue plain text N, 
+          which linked url is U. 
           those 2 lines are bound together.
 
 S(`@`)N
 S(`|`)D
 S(`|`)D
 ...
-S(`|`)D   N is the PL name.
+S(`|`)D   N is the PL name,
+          display as burlywood.
           all D in sequence 
           is n lines (n >= 1) codes of N,
           which can be click to copy,
-          will be highlight if supported.
+          will be highlight if supported,
+          or display as monospace forestgreen.
           those lines are bound together.
 
 S(`$`)N
 S(`=`)U  N is alt text and title of image.
          U is url of image, auto resize,
          but do not over 100% size.
-         N display under U, center.
+         N display under U, center align,
+         small, gray.
          those 2 lines are bound together.
