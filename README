@@ -21,7 +21,7 @@ S(`#`)N a topic bloder title, 1 line,
         Collapsed: orange,
         Expanded: bisque
 Content:
-S(`+`) join previous line of Content with
+S(`&`) join previous line of Content with
         next line of Content into one line.
         Requires: both previous line and
         next line are line of `plain text`.
