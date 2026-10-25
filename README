@@ -18,7 +18,9 @@ S(`#`)N a topic title, 1 line,
         which could click to expand or
         collapse related Content
 Content:
-S(` `)D a plain text
+S(` `)D a normal plain text
+
+S(`!`)D a important bolder plain text
 
 S(`>`)N
 S(`=`)U   a link, with link text is N, 
