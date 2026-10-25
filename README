@@ -1,0 +1,27 @@
+This is a specific definition of Mind.
+Mind is a simple language that can write blog.
+
+Symbol:
+   D a plain text until `\n`, includes `\n`
+   U a URL until `\n`, exclusive `\n`
+   N a plain text until `\n`, exclusive `\n`
+   S(c) replace 1st char of `  ` into c
+Base Syntax:
+D a topic title
+S(c)D  a related content belongs 
+       nearest independent D
+S(`>`)N
+S(`=`)U   a link, with link text is N, 
+          linked url is U. 
+          this 2 lines is bounds together
+S(`@`)N
+S(`|`)D
+S(`|`)D
+...
+S(`|`)D   N is the PL name,
+          all D in sequence 
+          is n lines (n >= 1) codes of N, 
+          can be click to copy,
+          will be highlight if supported,
+          those lines are bound together
+S(`$`)U a image, where U is image url
