@@ -11,7 +11,7 @@ Symbol:
    S(c) replace 1st char of `  ` into c
 
 [Each Content is belongs nearest Topic]
-[First Line should be Content]
+[First Line should be Topic]
 
 Topic:
 S(`#`)N a topic title, 1 line,
