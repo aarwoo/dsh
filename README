@@ -16,15 +16,20 @@ S(` `)D a plain text
 S(`>`)N
 S(`=`)U   a link, with link text is N, 
           linked url is U. 
-          this 2 lines is bounds together
+          those 2 lines are bound together.
 S(`@`)N
 S(`|`)D
 S(`|`)D
 ...
-S(`|`)D   N is the PL name,
+S(`|`)D   N is the PL name.
           all D in sequence 
-          is n lines (n >= 1) codes of N, 
-          can be click to copy,
-          will be highlight if supported,
+          is n lines (n >= 1) codes of N,
+          which can be click to copy,
+          will be highlight if supported.
           those lines are bound together
-S(`$`)U a image, where U is image url
+S(`$`)N
+S(`=`)U  N is alt text and title of image.
+         U is url of image, auto resize,
+         but do not over 100% size.
+         N display under U, center.
+         those 2 lines are bouds together.
