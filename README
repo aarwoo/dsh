@@ -10,7 +10,7 @@ Symbol:
 [Each Content is belongs nearest Topic]
 
 Topic:
-D a topic title, 1 line.
+S(``)D a topic title, 1 line.
 Content:
 S(` `)D a plain text
 S(`>`)N
@@ -32,4 +32,4 @@ S(`=`)U  N is alt text and title of image.
          U is url of image, auto resize,
          but do not over 100% size.
          N display under U, center.
-         those 2 lines are bouds together.
+         those 2 lines are bounds together.
