@@ -6,13 +6,17 @@ Mind is a simple language that can write blog.
 Symbol:
    D a plain text until `\n`, includes `\n`
    U a URL until `\n`, exclusive `\n`
-   N a plain text until `\n`, exclusive `\n`
+   N a plain text until `\n`, exclusive `\n`,
+     at least one visuable char includes
    S(c) replace 1st char of `  ` into c
 
 [Each Content is belongs nearest Topic]
+[First Line should be Content]
 
 Topic:
-S(``)D a topic title, 1 line.
+S(`#`)N a topic title, 1 line,
+        which could click to expand or
+        collapse related Content
 Content:
 S(` `)D a plain text
 S(`>`)N
