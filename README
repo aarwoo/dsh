@@ -16,7 +16,7 @@ Symbol:
 [Background is black]
 
 Topic:
-S(`#`)N a topic blod title, 1 line,
+S(`#`)N a topic bold title, 1 line,
         line wrap able,
         which could click to expand or
         collapse related Contents.
@@ -26,7 +26,7 @@ Content:
 S(` `)L a normal palegreen plain text,
         1 line, line wrap able.
 
-S(`!`)L a important bold salmon plain text,
+S(`!`)L an important bold salmon plain text,
         1 line, line wrap able.
 
 S(`>`)N
@@ -38,7 +38,7 @@ S(`=`)U   a bold skyblue plain text N,
 S(`$`)N
 S(`=`)U  N is alt text and title of image, 
          display under U,center align, 
-         small, gray, 1 line, line wrap able
+         small, gray, 1 line, line wrap able.
          U is url of image, auto resize,
          but do not over 100% size,
          1 line, like div do.
@@ -54,6 +54,7 @@ S(`|`)L   N is the PL name,
           all L in sequence 
           is n lines (n >= 1) codes of N,
           line wrap unable,
+          row scroll in box able,
           which can be click to copy,
           (copy includes `\n`)
           will be highlight if supported,
@@ -67,12 +68,12 @@ S(`|`)L   first L is K, line wrap able,
           orange,
           the rest n lines (n >= 1) is V,
           each is line wrap able,
-          palegreen
+          palegreen.
           display as borderless table, 
           align, separate by 
           screen center line
           from top to bottom,
-          1 left cell correspond to 
+          1 left cell corresponds to
           n right cell, like:
           K  V
           those lines are bound together.
