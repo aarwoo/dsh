@@ -16,7 +16,7 @@ Symbol:
 [Background is black]
 
 Topic:
-S(`#`)N a topic bloder title, 1 line,
+S(`#`)N a topic blod title, 1 line,
         line wrap able,
         which could click to expand or
         collapse related Contents.
@@ -30,7 +30,7 @@ S(`!`)L a important bold salmon plain text,
         1 line, line wrap able.
 
 S(`>`)N
-S(`=`)U   a bolder skyblue plain text N,
+S(`=`)U   a bold skyblue plain text N,
           1 line, line wrap able,
           whose linked url is U. 
           those 2 lines are bound together.
