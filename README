@@ -39,8 +39,9 @@ S(`$`)N
 S(`=`)U  N is alt text and title of image, 
          display under U,center align, 
          small, gray, 1 line, line wrap able.
-         U is url of image, auto resize,
-         but do not over 100% size,
+         U is url of image,
+         only shrinks to fit the width,
+         never enlarged,
          1 line, like div do.
          those 2 lines are bound together.
 
@@ -54,7 +55,8 @@ S(`|`)L   N is the PL name,
           all L in sequence 
           is n lines (n >= 1) codes of N,
           line wrap unable,
-          row scroll in box able,
+          scrollable horizontally
+          inside its box,
           which can be click to copy,
           (copy includes `\n`)
           will be highlight if supported,
