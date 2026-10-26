@@ -26,13 +26,13 @@ Content:
 S(` `)L a normal palegreen plain text,
         1 line, line wrap able.
 
-S(`!`)L a important bolder salmon plain text,
+S(`!`)L a important bold salmon plain text,
         1 line, line wrap able.
 
 S(`>`)N
 S(`=`)U   a bolder skyblue plain text N,
           1 line, line wrap able,
-          which linked url is U. 
+          whose linked url is U. 
           those 2 lines are bound together.
 
 S(`$`)N
@@ -64,11 +64,12 @@ S(`|`)L
 ...
 S(`|`)L   first L is K, line wrap able,
           orange,
-          the reset n lines (n >= 1) is V,
+          the rest n lines (n >= 1) is V,
           each is line wrap able,
           palegreen
           display as borderless table, 
-          align, sperate by screen center line
+          align, separate by 
+          screen center line
           from top to bottom,
           1 left cell correspond to 
           n right cell, like:
