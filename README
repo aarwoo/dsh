@@ -14,6 +14,7 @@ Symbol:
 [Each Topic must have Contents]
 [First Line must be Topic]
 [Background is black]
+[Space Chars inside L and N are preserved]
 
 Topic:
 S(`#`)N a topic bold title, 1 line,
