@@ -60,7 +60,7 @@ S(`|`)L   N is the PL name,
           inside its box,
           which can be click to copy,
           (copy includes `\n`)
-          will be highlight if supported,
+          will be syntax-colored if supported,
           or display as monospace plum.
           those lines are bound together.
 S(`.`)L
