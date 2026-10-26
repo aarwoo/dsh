@@ -11,8 +11,8 @@ Symbol:
    S(c) replace 1st char of `  ` into c
 
 [Each Content belongs to nearest Topic before]
-[Each Topic should have Contents]
-[First Line should be Topic]
+[Each Topic must have Contents]
+[First Line must be Topic]
 [Background is black]
 
 Topic:
