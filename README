@@ -55,6 +55,7 @@ S(`|`)L   N is the PL name,
           is n lines (n >= 1) codes of N,
           line wrap unable,
           which can be click to copy,
+          (copy includes `\n`)
           will be highlight if supported,
           or display as monospace plum.
           those lines are bound together.
